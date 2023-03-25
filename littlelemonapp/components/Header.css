@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    padding: 0 15%;
+    height: 400px;
+    background-color: #495e57;
+}
+
+.left{
+    color: white;
+}
+
+.left, .right{
+    width: 50%;
+}
+
+header h1{
+    margin-top: 2rem;
+}
+
+header p{
+    margin: 2rem 0;
+}
+
+header img{
+    float: right;
+}
