@@ -1,0 +1,15 @@
+.booking-page{
+    padding: 3rem 0 0;
+    gap: 2rem;
+    background-color: #edefee;
+}
+
+.booking h1{
+    text-align: center;
+}
+
+.booking section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
