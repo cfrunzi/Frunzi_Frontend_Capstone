@@ -7,7 +7,7 @@ const initialState = {
     email: "",
     date: "",
     time: "",
-    numberOfGuests: 1,
+    guests: 1,
     occasion: "",
     tablePreference: "",
     message: "",
@@ -80,7 +80,7 @@ const useFormHook = () =>{
     useEffect(() => {
     if(form.email.includes("@") && form.email.includes(".") && form.email.trim().length > 5 
     && form.name.trim().length > 3 && form.date
-        && form.time && form.numberOfGuests)
+        && form.time && form.guests)
             setFormValid(true);  
     }, [form]);
 
