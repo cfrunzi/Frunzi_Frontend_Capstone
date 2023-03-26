@@ -16,7 +16,7 @@ export const fetchAPI = function(date){
         if(rand() < 0.5){
             result.push(i + ":00");
         }
-        if(rand() > 0.5){
+        if(rand() <= 0.5){
             result.push(i + ":30");
         }
     }
