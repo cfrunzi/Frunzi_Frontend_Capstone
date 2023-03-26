@@ -9,7 +9,7 @@ const Header = () => {
             <h1>Little Lemon</h1>
             <h2>Chicago, Illinois, United States</h2>
             <p>
-            We are a family owned Mediterranean restaurant, focused on traditional
+            We are a mom-and-pop Mediterranean restaurant, focused on traditional
             recipes served with a modern twist.
             </p>
             <button>
